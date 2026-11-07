@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<!-- Защита: ресурсы только с этого сайта, Google Fonts и Яндекс Метрики (mc.yandex.ru, yastatic.net) -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://mc.yandex.ru https://yastatic.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://mc.yandex.ru; media-src 'self'; connect-src 'self' https://mc.yandex.ru; frame-src blob: https://mc.yandex.ru; base-uri 'self'; form-action 'none'; object-src 'none'">
+<!-- Страница для управляющих: только по QR и ссылке, в поиск не попадает -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Пятну хана — химчистка мебели для кафе и ресторанов</title>
+<meta name="description" content="Химчистка стульев, диванов и банкеток в кафе, ресторанах и офисах Новосибирска. Ночью или до открытия, без НДС, договор и акт.">
+<meta property="og:title" content="Пятну хана — химчистка мебели для заведений">
+<meta property="og:description" content="Чищу зал ночью, к открытию сухо. Без НДС, договор, счёт, акт. Пробный стул бесплатно.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://pyatnu-hana.ru/biznes/">
+<meta property="og:image" content="https://pyatnu-hana.ru/img/og.jpg">
+<link rel="canonical" href="https://pyatnu-hana.ru/biznes/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23C8FF2E'/%3E%3Ctext x='32' y='44' font-size='34' font-family='Arial' font-weight='900' text-anchor='middle' fill='%23111315'%3EП%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Unbounded:wght@600;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #111315; --ink2: #1D2125; --line: #2C3238;
+    --lime: #C8FF2E; --white: #fff; --mute: #9AA3AB;
+    --display: 'Unbounded', 'Arial Black', sans-serif;
+    --body: 'Manrope', system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--ink); color: var(--white); font-family: var(--body); font-size: 18px; line-height: 1.5; }
+  a { color: inherit; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+  section { padding: 72px 0; }
+  h1, h2 { font-family: var(--display); font-weight: 800; text-transform: uppercase; line-height: 1.02; }
+  h2 { font-size: clamp(30px, 6vw, 52px); margin-bottom: 32px; }
+  .lime { color: var(--lime); }
+  .tag { display: inline-block; padding: 8px 18px; border-radius: 999px; background: var(--lime); color: var(--ink);
+         font-family: var(--display); font-weight: 600; font-size: 14px; letter-spacing: .5px; }
+
+  header { position: sticky; top: 0; z-index: 10; background: rgba(17,19,21,.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+  header .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+  .logo { font-family: var(--display); font-weight: 800; font-size: 18px; text-decoration: none; display: inline-flex; align-items: center; min-height: 44px; }
+  .logo span { background: var(--lime); color: var(--ink); padding: 4px 10px; border-radius: 10px; }
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 16px 28px; border-radius: 999px;
+         font-weight: 800; font-size: 18px; text-decoration: none; border: 0; cursor: pointer; transition: transform .15s; }
+  .btn:hover { transform: translateY(-2px); }
+  .btn-lime { background: var(--lime); color: var(--ink); }
+  .btn-ghost { border: 2px solid var(--lime); color: var(--lime); }
+  header .btn { padding: 10px 18px; font-size: 15px; }
+
+  .hero { padding: 56px 0 72px; }
+  .hero-grid { display: grid; gap: 40px; align-items: center; }
+  .hero h1 { font-size: clamp(38px, 8vw, 80px); }
+  .hero .sub { font-size: clamp(19px, 2.6vw, 24px); font-weight: 700; margin: 20px 0 28px; }
+  .hero ul { list-style: none; padding: 0; margin-bottom: 32px; display: grid; gap: 10px; }
+  .hero li::before { content: '✓'; color: var(--lime); font-weight: 800; margin-right: 10px; }
+  .cta { display: flex; flex-wrap: wrap; gap: 12px; }
+
+  .ba { position: relative; width: 100%; max-width: 440px; aspect-ratio: 1; margin: 0 auto; border-radius: 28px; overflow: hidden; user-select: none; touch-action: pan-y; }
+  .ba img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .ba .after { clip-path: inset(0 50% 0 0); }
+  .ba .bar { position: absolute; top: 0; bottom: 0; left: 50%; width: 6px; margin-left: -3px; background: var(--lime); box-shadow: 0 0 30px rgba(200,255,46,.6); }
+  .ba .knob { position: absolute; top: 50%; left: 50%; width: 56px; height: 56px; margin: -28px; border-radius: 50%; background: var(--lime);
+              color: var(--ink); display: grid; place-items: center; font-weight: 800; font-size: 20px; }
+  .ba .lbl { position: absolute; top: 16px; padding: 6px 14px; border-radius: 999px; font-family: var(--display); font-size: 13px; font-weight: 600; }
+  .ba .l-before { right: 16px; background: rgba(17,19,21,.85); }
+  .ba .l-after { left: 16px; background: var(--lime); color: var(--ink); }
+  .ba input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: ew-resize; }
+  .note { color: var(--mute); font-size: 15px; text-align: center; margin-top: 16px; }
+
+  .grid3 { display: grid; gap: 16px; }
+  .card { background: var(--ink2); border: 1px solid var(--line); border-radius: 24px; padding: 28px; }
+  .card .n { width: 52px; height: 52px; border-radius: 14px; background: var(--lime); color: var(--ink); display: grid; place-items: center;
+             font-family: var(--display); font-weight: 800; font-size: 24px; margin-bottom: 18px; }
+  .card h3 { font-size: 21px; margin-bottom: 8px; }
+  .card p { color: var(--mute); }
+
+  .prices { background: var(--lime); color: var(--ink); }
+  .prices h2 { color: var(--ink); }
+  .ptable { display: grid; gap: 0 48px; }
+  .row { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 18px 0; border-bottom: 2px solid var(--ink); }
+  .row b { font-family: var(--display); font-size: 20px; white-space: nowrap; }
+  .row span { font-weight: 700; font-size: 19px; }
+  .row small { display: block; font-weight: 500; font-size: 14px; opacity: .7; }
+  .pnote { margin-top: 28px; font-weight: 700; }
+  .pnote .tag { background: var(--ink); color: var(--lime); margin-right: 8px; }
+
+  .disc { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 17px; }
+  .disc th, .disc td { text-align: left; padding: 14px 10px; border-bottom: 1px solid var(--line); }
+  .disc th { color: var(--mute); font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: .5px; }
+  .disc td:first-child { font-weight: 700; }
+  .disc .hl { color: var(--lime); font-weight: 800; }
+  .tscroll { overflow-x: auto; }
+
+  .calc { margin-top: 40px; background: var(--ink2); border: 1px solid var(--line); border-radius: 24px; padding: 28px; }
+  .calc h3 { font-family: var(--display); font-size: 20px; margin-bottom: 20px; text-transform: uppercase; }
+  .calc label { display: block; font-weight: 700; margin-bottom: 8px; }
+  .calc .inp { display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-end; margin-bottom: 20px; }
+  .calc input[type=number] { width: 140px; font: inherit; font-weight: 800; font-size: 22px; padding: 12px 16px; border-radius: 14px;
+                             border: 2px solid var(--line); background: var(--ink); color: var(--white); }
+  .calc input[type=number]:focus { outline: none; border-color: var(--lime); }
+  .chk { display: flex; align-items: center; gap: 10px; font-weight: 700; min-height: 44px; cursor: pointer; }
+  .chk input { width: 22px; height: 22px; accent-color: var(--lime); }
+  .total { font-family: var(--display); font-weight: 800; font-size: clamp(30px, 6vw, 46px); color: var(--lime); }
+  .total-sub { color: var(--mute); font-size: 16px; margin-top: 6px; }
+
+  .final { text-align: center; }
+  .final .phone { display: block; font-family: var(--display); font-weight: 800; font-size: clamp(26px, 5vw, 40px); color: var(--lime); text-decoration: none; margin: 24px 0; }
+  .final .cta { justify-content: center; }
+  footer { border-top: 1px solid var(--line); padding: 28px 0; color: var(--mute); font-size: 14px; text-align: center; }
+
+  @media (min-width: 820px) {
+    .hero-grid { grid-template-columns: 1.3fr 1fr; }
+    .grid3 { grid-template-columns: repeat(3, 1fr); }
+    .ptable { grid-template-columns: 1fr 1fr; }
+  }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .btn { transition: none; } }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="../"><span>ПЯТНУ ХАНА</span></a>
+    <a class="btn btn-lime" href="https://t.me/pyatnu_hana_bot?start=biznes">Написать</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="tag">для кафе, ресторанов и офисов</span>
+      <h1 style="margin-top:20px">Чистый зал<br><span class="lime">к открытию</span></h1>
+      <p class="sub">Химчистка стульев, диванов и банкеток прямо в заведении, ночью или до открытия</p>
+      <ul>
+        <li>Работаю в ваши нерабочие часы: почистил вечером, к утру сухо</li>
+        <li>Без НДС: договор, счёт и акт для бухгалтерии</li>
+        <li>Первый стул бесплатно, чтобы вы увидели результат на своей обивке</li>
+        <li>Скидка за объём до 30%, по договору ещё −10%</li>
+      </ul>
+      <div class="cta">
+        <a class="btn btn-lime" href="https://t.me/pyatnu_hana_bot?start=biznes">Рассчитать зал в Telegram</a>
+        <a class="btn btn-ghost" href="https://wa.me/79939539317?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9D%D1%83%D0%B6%D0%BD%D0%B0%20%D1%85%D0%B8%D0%BC%D1%87%D0%B8%D1%81%D1%82%D0%BA%D0%B0%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%B7%D0%B0%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F">WhatsApp</a>
+      </div>
+    </div>
+    <div>
+      <div class="ba" id="ba">
+        <img src="../img/stul_do.jpg" alt="Сиденье стула до химчистки: тёмные пятна на серой ткани">
+        <img class="after" src="../img/stul_posle.jpg" alt="То же сиденье после химчистки: ткань чистая и ровная">
+        <div class="bar"></div><div class="knob">↔</div>
+        <span class="lbl l-after">ПОСЛЕ</span><span class="lbl l-before">ДО</span>
+        <input type="range" min="0" max="100" value="50" aria-label="Сравнить до и после">
+      </div>
+      <p class="note">Реальный стул, фото без обработки. Двигайте ползунок.</p>
+    </div>
+  </div>
+</section>
+
+<section class="prices" id="prices">
+  <div class="wrap">
+    <h2>Цены для организаций</h2>
+    <div class="ptable">
+      <div class="row"><span>Стул<small>сиденье и спинка</small></span><b>450 ₽</b></div>
+      <div class="row"><span>Кресло</span><b>1 800 ₽</b></div>
+      <div class="row"><span>Диван 2-местный</span><b>3 600 ₽</b></div>
+      <div class="row"><span>Диван 3-местный<small>или банкетка до 2,5 м</small></span><b>4 350 ₽</b></div>
+      <div class="row"><span>Угловой диван</span><b>4 950 ₽</b></div>
+      <div class="row"><span>Ковролин</span><b>450 ₽/м²</b></div>
+    </div>
+    <p class="pnote"><span class="tag">без НДС</span> Цена окончательная. Минимальный заказ 3 600 ₽. Длинные банкетки считаю по фото.</p>
+  </div>
+</section>
+
+<section id="discount">
+  <div class="wrap">
+    <h2>Скидка <span class="lime">за объём</span></h2>
+    <p style="color:var(--mute); margin-bottom:16px">Все предметы в заказе считаются вместе. Регулярная чистка по договору (раз в 1–3 месяца) даёт ещё −10%.</p>
+    <div class="tscroll">
+      <table class="disc">
+        <thead><tr><th>Предметов</th><th>Скидка</th><th>Стул</th><th>Стул по договору</th></tr></thead>
+        <tbody>
+          <tr><td>1–9</td><td>—</td><td>450 ₽</td><td>405 ₽</td></tr>
+          <tr><td>10–19</td><td>−15%</td><td>383 ₽</td><td>344 ₽</td></tr>
+          <tr><td>20–39</td><td>−25%</td><td>338 ₽</td><td>304 ₽</td></tr>
+          <tr><td>40 и больше</td><td>−30%</td><td>315 ₽</td><td class="hl">284 ₽</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="calc">
+      <h3>Сколько стоит ваш зал</h3>
+      <div class="inp">
+        <div>
+          <label for="n">Стульев</label>
+          <input type="number" id="n" min="1" max="500" value="30" inputmode="numeric">
+        </div>
+        <label class="chk"><input type="checkbox" id="reg"> Регулярно, по договору</label>
+      </div>
+      <div class="total" id="total">10 125 ₽</div>
+      <div class="total-sub" id="totalSub">338 ₽ за стул, скидка 25%</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Как <span class="lime">работаю</span></h2>
+    <div class="grid3">
+      <div class="card"><div class="n">1</div><h3>Фото и расчёт</h3><p>Присылаете фото мебели и количество. Называю точную сумму и время работы.</p></div>
+      <div class="card"><div class="n">2</div><h3>Пробный стул бесплатно</h3><p>Чищу один стул в удобное время. Вы смотрите результат после сушки и решаете.</p></div>
+      <div class="card"><div class="n">3</div><h3>Договор и время</h3><p>Договор, счёт и акт. Согласуем ночь или утро до открытия, кто откроет зал и где набрать воду.</p></div>
+      <div class="card"><div class="n">4</div><h3>Осмотр и тест</h3><p>Фотографирую мебель до работы, отмечаю старые пятна и потёртости. Проверяю средство на незаметном месте.</p></div>
+      <div class="card"><div class="n">5</div><h3>Чистка Karcher</h3><p>Пылесос, обработка жира и пищевых пятен, экстракция профессиональным Karcher Puzzi, ополаскивание. Резкого запаха химии в зале не остаётся.</p></div>
+      <div class="card"><div class="n">6</div><h3>Сухо к открытию</h3><p>Мебель сохнет 6–12 часов. Утром присылаю фото до и после, вы подписываете акт.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Что <span class="lime">беру</span></h2>
+    <div class="grid3">
+      <div class="card"><h3>Жир и соусы</h3><p>Главная грязь в общепите. Снимаю обезжиривающим средством для текстиля до экстракции.</p></div>
+      <div class="card"><h3>Кофе, вино, сок</h3><p>Свежие пятна уходят почти всегда. Старые честно отмечаю в акте как «может только посветлеть».</p></div>
+      <div class="card"><h3>Запах дыма и кальяна</h3><p>Глубокая экстракция и нейтрализатор запаха, без ароматизаторов.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2 style="font-size:clamp(24px,4vw,36px)">Пришлите фото зала — посчитаю под ваш объём</h2>
+    <a class="phone" href="tel:+79939539317">+7 993 953-93-17</a>
+    <div class="cta">
+      <a class="btn btn-lime" href="https://t.me/pyatnu_hana_bot?start=biznes">Telegram</a>
+      <a class="btn btn-ghost" href="https://wa.me/79939539317?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9D%D1%83%D0%B6%D0%BD%D0%B0%20%D1%85%D0%B8%D0%BC%D1%87%D0%B8%D1%81%D1%82%D0%BA%D0%B0%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%B7%D0%B0%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F">WhatsApp</a>
+      <a class="btn btn-ghost" href="tel:+79939539317">Позвонить</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">«Пятну хана» — химчистка мягкой мебели для заведений и офисов, Новосибирск. Документы для организаций оформляются через ИП-партнёра, без НДС.</div>
+</footer>
+
+<script>
+  const ba = document.getElementById('ba');
+  const range = ba.querySelector('input');
+  const set = (v) => {
+    ba.querySelector('.after').style.clipPath = `inset(0 ${100 - v}% 0 0)`;
+    ba.querySelector('.bar').style.left = v + '%';
+    ba.querySelector('.knob').style.left = v + '%';
+  };
+  range.addEventListener('input', () => set(range.value));
+  set(range.value);
+
+  // Калькулятор: стул 450 ₽, скидки 15/25/30% от 10/20/40 шт., договор ещё −10%, минимальный заказ 3 600 ₽
+  const nEl = document.getElementById('n'), regEl = document.getElementById('reg');
+  const fmt = (x) => Math.round(x).toLocaleString('ru-RU') + ' ₽';
+  const calc = () => {
+    let n = Math.max(0, Math.floor(Number(nEl.value) || 0));
+    const d = n >= 40 ? 0.30 : n >= 20 ? 0.25 : n >= 10 ? 0.15 : 0;
+    const k = (1 - d) * (regEl.checked ? 0.9 : 1);
+    let sum = n * 450 * k;
+    const min = sum > 0 && sum < 3600;
+    if (min) sum = 3600;
+    document.getElementById('total').textContent = n ? fmt(sum) : '—';
+    const parts = [];
+    if (n) parts.push(fmt(450 * k) + ' за стул');
+    if (d) parts.push('скидка ' + Math.round(d * 100) + '%');
+    if (regEl.checked) parts.push('договор −10%');
+    if (min) parts.push('минимальный заказ 3 600 ₽');
+    document.getElementById('totalSub').textContent = parts.join(', ');
+  };
+  nEl.addEventListener('input', calc); regEl.addEventListener('change', calc); calc();
+</script>
+<!-- Яндекс Метрика, счётчик 114067273; цели: клик по Telegram и WhatsApp (те же, что на главной) -->
+<script>
+  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+  m[i].l=1*new Date();
+  for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+  k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+  ym(114067273, "init", {clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true});
+  document.querySelectorAll('a[href*="t.me/"]').forEach(a => a.addEventListener('click', () => ym(114067273, 'reachGoal', 'telegram')));
+  document.querySelectorAll('a[href*="wa.me/"]').forEach(a => a.addEventListener('click', () => ym(114067273, 'reachGoal', 'whatsapp')));
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/114067273" style="position:absolute; left:-9999px;" alt=""></div></noscript>
+</body>
+</html>
